@@ -64,7 +64,7 @@ const ConfirmHook=()=>{
     const name = useInput("MR. ", maxLen);
     const { currentItem, changeItem } = useTabs(0, content);
 
-    const potato = useRef();
+    const potato = useRef(); //getElementById
     setTimeout(() => potato.current.focus(), 5000);
     return (
         
